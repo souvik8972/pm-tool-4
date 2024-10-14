@@ -153,7 +153,7 @@ const Projects = () => {
     <div className="p-4 bg-white rounded-sm overflow-hidden">
       <h2 onClick={() => navigate(-1)} className=" cursor-pointer text-xl border s mb-1 text-left flex  items-center  w-10 h-10 justify-center    rounded-full hover:bg-slate-200"> <IoArrowBack/>  </h2>
     
-    // Render the ReusableTable component with the data and columns
+    
      <ReusableTable columns={columns} data={memoizedData} />
 
     </div>
